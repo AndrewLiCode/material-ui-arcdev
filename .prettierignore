@@ -1,0 +1,9 @@
+  
+node_modules/
+coverage/
+dist/
+tmp/
+*.html
+# npm install does it's own formatting, which can conflict with prettier
+package.json
+!packages/**/package.json
